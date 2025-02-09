@@ -7,18 +7,18 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID = os.environ.get("API_ID", "")  # ⚠️ Required
-    API_HASH = os.environ.get("API_HASH", "")  # ⚠️ Required
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")  # ⚠️ Required
+    API_ID = os.environ.get("API_ID", "22558238")  # ⚠️ Required
+    API_HASH = os.environ.get("API_HASH", "41abc14dd9f760887a50f9cd2cc1bb73")  # ⚠️ Required
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7680117357:AAGqf1YHfkffT0UL_b8DvAwfMWsoVgi3slo")  # ⚠️ Required
 
     # database config
-    DB_URL = os.environ.get("DB_URL", "")  # ⚠️ Required
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://kry2581:330833039@cluster0.iq0vd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # ⚠️ Required
     DB_NAME = os.environ.get("DB_NAME", "AutoAcceptBot")
 
     # other configs
     BOT_UPTIME = time.time()
     START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/0ceb5f176f3cf877a08b5.jpg")
-    ADMIN = int(os.environ.get('ADMIN', ''))  # ⚠️ Required
+    ADMIN = int(os.environ.get('ADMIN', '7863542263'))  # ⚠️ Required
     DEFAULT_WELCOME_MSG = os.environ.get("WELCOME_MSG", "Hey {user},\nYour Request Approved ✅,\n\nWelcome to **{title}**")
     DEFAULT_LEAVE_MSG = os.environ.get("LEAVE_MSG", "By {user},\nSee You Again 👋\n\nFrom **{title}**")
 
@@ -48,5 +48,5 @@ class TxT(object):
 ⚠️ <b> Support HTML & Markdown formating in welcome or leave message for more info <a href=https://core.telegram.org/api/entities#:~:text=%2C%20MadelineProto.-,Allowed%20entities,-For%20example%20the> Link </a>. </b>
 
 
-<b>⦿ Developer:</b> <a href=https://t.me/Snowball_Official>ѕησωвαℓℓ ❄️</a>
+<b>⦿ Developer:</b> <a href=https://t.me/bot_sratim_sdarot>ѕησωвαℓℓ ❄️</a>
 """
